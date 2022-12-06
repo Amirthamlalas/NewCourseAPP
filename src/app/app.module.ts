@@ -7,6 +7,7 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
+import { ViewCourseComponent } from './view-course/view-course.component';
 
  
 const myroute :Routes=[
@@ -20,7 +21,8 @@ const myroute :Routes=[
   declarations: [
     AppComponent,
     AddCourseComponent,
-    NavbarComponent
+    NavbarComponent,
+    ViewCourseComponent
   ],
   imports: [
     BrowserModule,
